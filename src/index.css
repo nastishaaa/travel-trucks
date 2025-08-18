@@ -1,0 +1,24 @@
+:root {
+  color: #1a1a1a;
+  background-color: #fff;
+
+}
+
+button{
+  border: none;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+a{
+  text-decoration: none ;
+  font-family: "Inter", sans-serif;
+}

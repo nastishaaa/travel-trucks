@@ -1,0 +1,58 @@
+.mainContainer{
+    padding: 260px 64px;
+    width: 100vw;
+    height: 100%;
+    background-image: url('/src/assets/mainPicture.jpg');
+    background-repeat: no-repeat;
+}
+
+.homeContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 40px;
+    width: 571px;
+}
+
+.titlesContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    width: 571px;
+}
+
+.mainTitle{
+    margin: 0;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.66667;
+    color: #f7f7f7;
+}
+
+.subTitle{
+    margin: 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+    color: #f7f7f7;
+}
+
+.linkViewNow{
+    border-radius: 200px;
+    padding: 16px 60px;
+    width: 173px;
+    height: 56px;
+    background: #e44848;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    color: #fff;
+}
+
+.linkViewNow:hover{
+    background: #d84343;
+}

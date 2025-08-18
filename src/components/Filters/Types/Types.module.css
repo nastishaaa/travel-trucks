@@ -1,0 +1,46 @@
+.equipConteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 24px;
+}
+
+.mainText {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #101828;
+}
+
+.line {
+    height: 2px;
+    width: 360px;
+    background-color: #dadde1;
+}
+
+.equipmentList {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 8px;
+    max-width: 360px;
+    max-height: 200px;
+}
+
+.equipmentItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dadde1;
+    border-radius: 12px;
+    text-align: center;
+    padding: auto;
+    width: 112px;
+    height: 96px;
+    mix-blend-mode: multiply;
+}

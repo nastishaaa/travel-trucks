@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    gap: 24px;
+}
+
+.container>div:first-child {
+    flex: 0 0 250px;
+}
+
+.container>div:last-child {
+    flex: 1;
+
+}

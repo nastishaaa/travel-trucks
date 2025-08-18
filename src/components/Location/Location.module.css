@@ -1,0 +1,44 @@
+.locationContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 16px;
+    width: 360px;
+    height: 88px;
+}
+
+.locationText{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6c717b;
+}
+
+.placeholderWrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 12px;
+    padding: 18px 20px;
+    width: 360px;
+    height: 56px;
+    background: #f7f7f7;
+}
+
+.placeholderContent{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.locationP{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #101828;
+}
