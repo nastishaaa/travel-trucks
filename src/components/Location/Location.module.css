@@ -36,9 +36,17 @@
     gap: 8px;
 }
 
-.locationP{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #101828;
+.icon {
+    flex-shrink: 0;
+}
+
+.locationInput {
+    border: none;
+    outline: none;
+    width: 312px;
+    flex: 1;
+    border-radius: 12px;
+    padding: 18px 218px 18px 20px;
+    height: 56px;
+    background: #f7f7f7;
 }

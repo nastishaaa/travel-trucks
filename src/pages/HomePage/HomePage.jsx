@@ -1,3 +1,4 @@
+import Button from '../../components/Button/Button';
 import s from './HomePage.module.css';
 import { Link } from 'react-router-dom';
 
@@ -12,7 +13,7 @@ export default function HomePage() {
                     <h5 className={s.subTitle}>You can find everything you want in our catalog</h5>
                 </div>
                 <div className={s.linkContainer}>
-                    <Link to='/catalog' className={s.linkViewNow}>View Now</Link>
+                    <Button link={'/catalog'} text={'View Now'}/>
                 </div>
             </div>
         </div>

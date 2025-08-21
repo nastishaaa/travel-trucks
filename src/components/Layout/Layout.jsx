@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import Header from "../Header/Header";
 import { Outlet } from "react-router";
+import Loader from "../Loader/Loader";
 
 export default function Layout() {
 
@@ -18,7 +19,7 @@ export default function Layout() {
             <div style={style}>
                 <Header />
                 <main style={mainContentStyle}>
-                    <Suspense fallback={'Loading...'}>
+                    <Suspense fallback={<Loader/>}>
                         <Outlet />
                     </Suspense>
                 </main>

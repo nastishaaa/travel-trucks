@@ -1,0 +1,38 @@
+.listItem{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex-direction: row;
+    gap: 8px;
+    border-radius: 100px;
+    padding: 12px 18px;
+    width: auto;
+    height: 48px;
+    background: #f2f4f7;
+    mix-blend-mode: multiply;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #101828;
+}
+
+.list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 0;
+    max-width: 500px;
+    gap: 8px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+
+.icon{
+    fill: none;
+    stroke: currentColor;
+    color: #101828;
+}

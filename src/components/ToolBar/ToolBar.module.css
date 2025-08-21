@@ -1,8 +1,9 @@
 .containerTools{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     gap: 60px;
     padding: 48px 60px;
+    max-width: 380px;
 }

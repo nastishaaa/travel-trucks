@@ -44,3 +44,16 @@
     height: 96px;
     mix-blend-mode: multiply;
 }
+
+.equipCheckbox{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    padding: 0;
+}
+
+.active{
+    border: 1px solid #e44848;
+}

@@ -1,7 +1,16 @@
 :root {
   color: #1a1a1a;
   background-color: #fff;
+}
 
+* {
+  box-sizing: border-box;
+  /* max-width: 1200px; */
+}
+
+body{
+  box-sizing: border-box;
+  /* max-width: 1200px; */
 }
 
 button{
@@ -21,4 +30,5 @@ body{
 a{
   text-decoration: none ;
   font-family: "Inter", sans-serif;
+  color: inherit;
 }

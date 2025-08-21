@@ -1,0 +1,89 @@
+.container{
+    margin-bottom: 28px;
+}
+
+.headers{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    height: 112px;
+}
+
+.mainTitle{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 6px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+    color: #101828;
+    margin: 0;
+}
+
+.info{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 267px;
+    height: 72px;
+}
+
+.price{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33333;
+    color: #101828;
+    margin: 0;
+}
+
+.detailInfo{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: row;
+    gap: 16px;
+    min-width: 267px;
+}
+
+.reviews{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.reviewsText{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #101828;
+    padding: 0;
+    margin: 0;
+
+}
+
+.locationInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4px;
+    height: 24px;
+}
+
+.locationText{
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #101828;
+}

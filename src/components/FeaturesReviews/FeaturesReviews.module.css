@@ -1,0 +1,46 @@
+.navBlock{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    width: 206px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #101828;
+    margin-bottom: 24px;
+}
+
+.underline{
+    margin-bottom: 56px;
+}
+
+.navBlock a {
+    position: relative;
+}
+
+.navBlock a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -24px;
+    width: 85px;
+    height: 3px;
+    background: transparent;
+    border-radius: 2px;
+    transition: background 0.3s;
+}
+
+.navBlock a.activeLink::after {
+    background: #e44848;
+
+}
+
+.bottomContainer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    
+}

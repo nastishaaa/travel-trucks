@@ -1,7 +1,10 @@
-import s from './CatalogItemPage.modul.css';
+import s from './CatalogItemPage.module.css';
+import CatalogPageUI from '../../components/CatalogPageUI/CatalogPageUI';
 
 export default function CatalogItemPage() {
     return (
-        <div>CatalogItemPage</div>
+        <div>
+            <CatalogPageUI />
+        </div>
     );
 }
