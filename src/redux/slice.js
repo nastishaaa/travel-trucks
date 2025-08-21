@@ -9,7 +9,7 @@ const initialState = {
     savedData: [],
     filteredData: {
         equipment: [], 
-        form: [],    
+        form: null,    
         location: ''  
     },
     filteredCampers: []
@@ -37,6 +37,11 @@ const campersSlice = createSlice({
 
             if (category === 'location') {
                 state.filteredData.location = value;
+                return;
+            }
+
+            if (category === 'form') {
+                state.filteredData.form = value; 
                 return;
             }
 

@@ -31,9 +31,11 @@ export default function Types() {
     const dispatch = useDispatch();
     const filter = useSelector(selectFilteredData);
 
-    const onClick = (payload) => {
-        dispatch(setFilteredData({category: 'form', value: payload}));
+    const onClick = (key) => {
+        const newValue = filter.form === key ? null : key;
+        dispatch(setFilteredData({ category: 'form', value: newValue }));
     }
+
     return (
         <div className={s.equipConteiner}>
             <p className={s.mainText}>Vehicle type</p>
