@@ -44,3 +44,45 @@
     gap: 40px;
     
 }
+
+@media (max-width: 1024px) {
+    .navBlock {
+        gap: 24px;
+        font-size: 18px;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+    }
+
+    .navBlock a::after {
+        bottom: -16px;
+        width: 60px;
+    }
+
+    .bottomContainer {
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+}
+
+/* Телефон (макс. 768px) */
+@media (max-width: 768px) {
+    .navBlock {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        font-size: 16px;
+    }
+
+    .navBlock a::after {
+        position: relative;
+        bottom: -4px;
+        width: 100%;
+        display: block;
+    }
+
+    .bottomContainer {
+        flex-direction: column;
+        gap: 16px;
+    }
+}

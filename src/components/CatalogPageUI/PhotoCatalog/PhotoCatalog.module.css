@@ -2,6 +2,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 16px;
     list-style: none;
@@ -14,4 +15,21 @@
     border-radius: 10px;
     width: 292px;
     height: 312px;
+}
+
+@media (max-width: 1024px) {
+    .photoItem {
+        flex: 1 1 calc(50% - 16px);
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Мобільні */
+@media (max-width: 600px) {
+    .photoItem {
+        flex: 1 1 100%;
+        max-width: 100%;
+        height: auto;
+    }
 }

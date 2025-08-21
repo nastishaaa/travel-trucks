@@ -11,3 +11,31 @@
     flex: 1;
 
 }
+
+@media (max-width: 1024px) {
+    .container {
+        gap: 16px;
+    }
+
+    .container>div:first-child {
+        flex: 0 0 200px;
+    }
+}
+
+/* мобілка */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container>div:first-child {
+        flex: 1 1 auto;
+        width: 100%;
+    }
+
+    .container>div:last-child {
+        flex: 1 1 auto;
+        width: 100%;
+    }
+}

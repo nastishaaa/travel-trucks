@@ -56,3 +56,57 @@
 .linkViewNow:hover{
     background: #d84343;
 }
+
+@media (max-width: 1199px) {
+    .mainContainer {
+        padding: 160px 40px;
+    }
+
+    .homeContainer,
+    .titlesContainer {
+        width: 100%;
+        max-width: 480px;
+    }
+
+    .mainTitle {
+        font-size: 40px;
+    }
+
+    .subTitle {
+        font-size: 20px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .mainContainer {
+        padding: 100px 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .homeContainer,
+    .titlesContainer {
+        width: 100%;
+        align-items: center;
+    }
+
+    .mainTitle {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .subTitle {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .linkViewNow {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        padding: 14px 0;
+        font-size: 14px;
+    }
+}
