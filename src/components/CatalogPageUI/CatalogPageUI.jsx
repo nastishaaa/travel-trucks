@@ -1,11 +1,12 @@
 import { useNavigate } from 'react-router-dom';
+import { lazy, Suspense, useEffect } from 'react';
 
 import s from './CatalogPageUI.module.css';
-import MainInfo from './MainInfo/MainInfo';
-import PhotoCatalog from './PhotoCatalog/PhotoCatalog';
-import Description from './Description/Description';
-import FeaturesReviews from '../FeaturesReviews/FeaturesReviews';
-import { useEffect } from 'react';
+import Loader from '../Loader/Loader';
+const MainInfo = lazy(() => import('./MainInfo/MainInfo'));
+const PhotoCatalog = lazy(() => import('./PhotoCatalog/PhotoCatalog'));
+const Description = lazy(() => import('./Description/Description'));
+const FeaturesReviews = lazy(() => import('../FeaturesReviews/FeaturesReviews'));
 
 export default function CatalogPageUI() {
     
@@ -23,10 +24,12 @@ export default function CatalogPageUI() {
             >
                 ← Back
             </button>
-            <MainInfo />
-            <PhotoCatalog />
-            <Description />
-            <FeaturesReviews />
+            <Suspense fallback={<Loader/>}>
+                <MainInfo />
+                <PhotoCatalog />
+                <Description />
+                <FeaturesReviews />
+            </Suspense>
         </div>
     );
 }

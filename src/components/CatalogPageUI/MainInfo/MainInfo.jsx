@@ -45,7 +45,9 @@ export default function MainInfo() {
                                     <p className={s.locationText}>{item.location}</p>
                                 </div>
                             </div>
-                            <p className={s.title}>€{item.price.toFixed(2)}</p>
+                            <p className={s.price}>
+                                €{item?.price !== undefined ? item.price.toFixed(2) : '—'}
+                            </p>
                         </div>
                     </div>
                 </div> : <h2>Loading...</h2>

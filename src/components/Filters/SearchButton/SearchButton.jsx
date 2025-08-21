@@ -2,6 +2,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import s from './SearchButton.module.css';
 import { selectData, selectFilteredData } from '../../../redux/selectors';
 import { setFilteredCampers } from '../../../redux/slice';
+import { fi } from 'date-fns/locale';
+import toast from 'react-hot-toast';
 
 export default function SearchButton() {
     const filters = useSelector(selectFilteredData);
@@ -35,6 +37,10 @@ export default function SearchButton() {
             filteredCampers = filteredCampers.filter(camp =>
                 filters.form.includes(camp.form)
             );
+        }
+
+        if (filteredCampers.length === 0) {
+            toast.error('No findings...')
         }
 
         dispatch(setFilteredCampers(filteredCampers))
