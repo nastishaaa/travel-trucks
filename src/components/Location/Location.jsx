@@ -10,6 +10,7 @@ export default function Location() {
     const handleBlurOrEnter = () => {
         if (value.trim() !== "") {
             dispatch(setFilteredData({category: 'location', value: value.trim()}));
+            setValue('');
         }
     };
 

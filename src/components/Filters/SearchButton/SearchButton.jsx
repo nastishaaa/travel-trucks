@@ -1,8 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import s from './SearchButton.module.css';
 import { selectData, selectFilteredData } from '../../../redux/selectors';
-import { setFilteredCampers } from '../../../redux/slice';
-import { fi } from 'date-fns/locale';
+import { clearFilters, setFilteredCampers } from '../../../redux/slice';
 import toast from 'react-hot-toast';
 
 export default function SearchButton() {
@@ -44,6 +43,7 @@ export default function SearchButton() {
         }
 
         dispatch(setFilteredCampers(filteredCampers))
+        dispatch(clearFilters());
     }
 
 
