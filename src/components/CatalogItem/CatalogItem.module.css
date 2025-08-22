@@ -148,9 +148,10 @@
     .container {
         flex-direction: column;
         align-items: flex-start;
+        justify-content: center;
         gap: 16px;
-        height: auto;
-        width: auto;
+        min-height: 500px;
+        width: 320;
     }
 
     .photoCatalog {
@@ -179,5 +180,11 @@
         height: auto;
         gap: 12px;
     }
+
+    .locationInfo, .detailInfo, .descText, .priceFavContainer, .titleContainer,
+    .infoContainer, .photoCatalog{
+        height: auto;
+    }
+
 }
 
