@@ -1,12 +1,65 @@
-# React + Vite
+# TravelTrucks Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Опис проєкту
 
-Currently, two official plugins are available:
+**TravelTrucks** — це фронтенд частина веб-додатку для компанії, яка займається орендою кемперів.  
+Мета проєкту — створити зручний та сучасний інтерфейс для користувачів, де вони можуть переглядати каталог кемперів, отримувати детальну інформацію про окремі моделі, читати відгуки та бронювати обраний кемпер.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Проєкт реалізовано з урахуванням адаптивної верстки для різних пристроїв, включаючи комп’ютери, планшети та мобільні телефони.
 
-## Expanding the ESLint configuration
+## Основні функції
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Головна сторінка** — презентація компанії та ключових пропозицій.
+- **Каталог кемперів** — перелік всіх доступних моделей з фото, ціною та коротким описом.
+- **Сторінка окремого кемпера** — детальна інформація про обрану модель, відгуки користувачів та форма бронювання.
+- **Фільтри та пошук** — можливість відфільтрувати кемпери за типом, обладнанням та місцем розташування.
+- **Пагінація** — підвантаження додаткових кемперів по мірі прокрутки або натискання кнопки "Load More".
+- **Адаптивний дизайн** — комфортне використання на будь-якому пристрої.
+
+## Технології
+
+- React.js (фронтенд)
+- Redux Toolkit (керування станом)
+- React Router (навігація між сторінками)
+- CSS Modules (локальні стилі)
+- Адаптивна верстка (Flexbox, Media Queries)
+
+## Встановлення та запуск
+
+1. Клонувати репозиторій:
+
+   ```bash
+   git clone <URL_твого_репозиторію>
+
+   ```
+
+2. Перейти в папку проєкту:
+
+   ```bash
+   cd traveltrucks-frontend
+
+   ```
+
+3. Встановити залежності:
+
+   ```bash
+   npm install
+
+   ```
+
+4. Запустити локальний сервер розробки:
+   ```bash
+   npm run dev
+   ```
+
+## Використання
+
+1. Переглядайте головну сторінку для ознайомлення з пропозиціями компанії.
+
+2. Використовуйте сторінку каталогу для вибору кемпера.
+
+3. Натисніть на окремий кемпер, щоб переглянути деталі та залишити бронювання.
+
+4. Фільтруйте та сортуйте кемпери за типом, обладнанням і локацією.
+
+5. Натискайте "Load More" для завантаження додаткових кемперів.
