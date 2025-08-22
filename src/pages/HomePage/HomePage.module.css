@@ -4,6 +4,7 @@
     height: 100%;
     background-image: url('/src/assets/mainPicture.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .homeContainer{
