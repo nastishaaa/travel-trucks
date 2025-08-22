@@ -135,6 +135,15 @@
     background-color: inherit;
 }
 
+@media (max-width: 1440px) {
+    .container{
+        height: auto;
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+}
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;

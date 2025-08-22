@@ -1,7 +1,7 @@
 .mainContainer{
     padding: 260px 64px;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     background-image: url('/src/assets/mainPicture.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,7 +58,7 @@
     background: #d84343;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1440px) {
     .mainContainer {
         padding: 160px 40px;
     }
@@ -79,7 +79,7 @@
 }
 
 /* Mobile */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .mainContainer {
         padding: 100px 20px;
         align-items: center;
@@ -91,6 +91,7 @@
     .titlesContainer {
         width: 100%;
         align-items: center;
+        justify-content: center;
     }
 
     .mainTitle {

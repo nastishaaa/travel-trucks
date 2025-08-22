@@ -6,4 +6,18 @@
     gap: 60px;
     padding: 48px 60px;
     max-width: 380px;
+    margin-top: 80px;
+}
+
+@media (max-width: 768px) {
+    .containerTools {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerTools{
+        justify-content: center;
+        align-items: center;
+    }
 }

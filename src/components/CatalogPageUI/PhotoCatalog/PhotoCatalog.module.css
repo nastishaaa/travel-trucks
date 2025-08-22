@@ -17,7 +17,7 @@
     height: 312px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1440px) {
     .photoItem {
         flex: 1 1 calc(50% - 16px);
         max-width: 100%;
@@ -26,7 +26,7 @@
 }
 
 /* Мобільні */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .photoItem {
         flex: 1 1 100%;
         max-width: 100%;
