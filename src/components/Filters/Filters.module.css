@@ -5,4 +5,17 @@
     color: #475467;
     margin: 0;
     margin-bottom: 32px;
+
+}
+
+.container {
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    .container{
+        max-width: 300px;
+        height: auto;
+        box-sizing: border-box;
+    }
 }

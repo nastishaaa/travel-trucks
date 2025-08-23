@@ -12,11 +12,7 @@
 @media (max-width: 768px) {
     .containerTools {
         flex-wrap: wrap;
-    }
-}
-
-@media (max-width: 768px) {
-    .containerTools{
+        max-width: 280px;
         justify-content: center;
         align-items: center;
     }

@@ -51,3 +51,20 @@
     height: 56px;
     background: #f7f7f7;
 }
+
+@media (max-width: 768px) {
+    .locationContainer{
+        width: 320px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .locationInput{
+        width: 290px;
+    }
+
+    .placeholderWrapper{
+        justify-content: flex-start;
+        width: 290px;
+    }
+}

@@ -6,7 +6,7 @@ import SearchButton from './SearchButton/SearchButton';
 
 export default function Filters() {
     return (
-        <div>
+        <div className={s.container}>
             <p className={s.filtersText}>Filters</p>
             <Equipment />
             <Types />

@@ -59,3 +59,32 @@
 .active{
     border: 1px solid #e44848;
 }
+
+@media (max-width: 768px) {
+    .equipmentList{
+        flex-wrap: wrap;
+        width: 300px;
+    }
+
+    .equipConteiner{
+        height: auto;
+    }
+
+}
+
+@media (max-width: 1440px) {
+    .equipmentList {
+        flex-wrap: wrap;
+        width: 320px;
+    }
+
+        .equipConteiner {
+            height: 400px;
+            width: 300px;
+        }
+
+        .line{
+            max-width: 280px;
+        }
+
+}
